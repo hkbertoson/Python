@@ -1,0 +1,18 @@
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 8
+8
+>>> 8*2
+16
+>>> 8**2
+64
+>>> 8/12
+0.6666666666666666
+>>> 8//12
+0
+>>> 8/0
+Traceback (most recent call last):
+  File "<pyshell#5>", line 1, in <module>
+    8/0
+ZeroDivisionError: division by zero
+>>> 
