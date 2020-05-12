@@ -30,6 +30,8 @@ class BouncyGUI(Frame):
         self._bouncesLabel.grid(row = 2, column = 0)
         self._bouncesVar = IntVar()
         self._bouncesEntry = Entry(self,
+                                textvariable = self._bouncesVar)
+        self._bouncesEntry.grid(row = 2, column = 1)
 
         # The command buton
         self._button = Button(self,
